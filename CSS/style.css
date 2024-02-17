@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {}
+
+.container__main {}
+
+.index-header {
+
+    position: absolute;
+    width: 1920px;
+    height: 961px;
+    left: 0px;
+    top: 0px;
+    background-image: url("../assets/Img/Gnezdo.jpg");
+    background-repeat: no-repeat;
+
+
+
+}
+
+.header__main--menu {
+    background-color: white;
+    height: 85px;
+    position: absolute;
+    max-width: 1496px;
+    max-height: 85px;
+    left: 212px;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    align-items: center;
+
+
+}
+
+.header-menu__nav {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    text-decoration: none;
+    margin: 40px;
+
+
+
+
+
+
+}
+
+.header-menu__logo {
+    margin-left: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+
+}
+
+.header__menu-first {
+    text-decoration: none;
+    padding-left: 20px;
+    padding: 50px;
+
+}
+
+.header__menu {
+    text-decoration: none;
+    padding: 200px;
+}
+
+.header__no-logo {
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    height: 86px;
+    border-bottom-right-radius: 20px;
+}
+
+.header_buttons {}
+
+.header-menu__buttons {
+    background-color: rgb(73, 170, 73);
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-left: 40px;
+
+}
+
+.header-menu__buttons__link {
+    background-color: rgb(73, 170, 73);
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+
+
+
+.hamburger {}
+
+.header__index {
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.header__index-content {
+    margin-top: 327px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 70px;
+}
+
+.index-header__content--text {
+    margin-bottom: 38px;
+    margin-top: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.index-header__content--button {
+    padding: 10px;
+    background: #FA8904;
+    border-radius: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.header__about {
+    margin-right: 225px;
+    margin-left: 300px;
+    margin-top: 300px;
+    background-color: white;
+    max-width: 1280px;
+    height: 150px;
+}
+
+.header__Members {
+    text-align: center;
+    word-spacing: 500px;
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.header__Members-about {
+    text-align: center;
+    word-spacing: 450px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.jSlider {
+    margin-top: 100px;
+    display: flex;
+}
+
+.Main__text {
+    margin-top: 1100px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 30px;
+
+}
+
+.block_d-flex {
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.block_m-10-negative {
+    margin: -53px;
+}
+
+.benefit.benefit_cancel {
+    background-image: url(https://assets.sputnik8.com/packs/src.legacy/old.blocks/benefit/_cancel/cancel-8b01c9b….svg);
+}
+
+.benefit {
+    font-family: PT Sans Caption, Verdana, Dejavu, Sans;
+    padding-left: 44px;
+    background-size: 26px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    width: calc(33.33333% - 20px);
+    margin: 10px;
+}
+
+.benefit__title {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+}
+
+.benefit__descript {
+    font-size: 14px;
+    color: #bcbcbc;
+    line-height: 20px;
+    margin-top: 10px;
+    width: 80%;
+}
+
+.benefit.benefit_visa {
+    background-image: url(https://assets.sputnik8.com/packs/src.legacy/old.blocks/benefit/_visa/visa-35d5cf8….svg);
+}
+
+.benefit {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 44px;
+    background-size: 26px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    width: calc(33.33333% - 20px);
+    margin: 10px;
+}
+
+.benefit__title {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+}
+
+.benefit__descript {
+    font-size: 14px;
+    color: #bcbcbc;
+    line-height: 20px;
+    margin-top: 10px;
+    width: 80%;
+}
+
+.benefit {
+    font-family: PT Sans Caption, Verdana, Dejavu, Sans;
+    padding-left: 44px;
+    background-size: 26px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    width: calc(33.33333% - 20px);
+    margin: 10px;
+}
+
+.benefit.benefit_heart {
+    background-image: url(https://assets.sputnik8.com/packs/src.legacy/old.blocks/benefit/_heart/heart-bfcf822….svg);
+}
+
+.benefit__title {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+}
+
+.benefit__descript {
+    font-size: 14px;
+    color: #bcbcbc;
+    line-height: 20px;
+    margin-top: 10px;
+    width: 80%;
+}
+
+.sputnik-header_h2, h2.sputnik-header_h2 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #000;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.sputnik-header {
+    margin-top: 100px;
+    position: relative;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+.block_d-flex {
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+.layout-footer__top {
+    background: #444;
+    padding: 12px 0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.footer__mail{
+    background-color: black;
+    color:white;
+    margin-top: 60px;
+    padding-left:380px;
+    height: 50px;
+    display:flex;
+    align-items:center; 
+    
+}
+.footer__mail-text{
+}
+.layout-footer__office {
+display:flex;
+flex-wrap: wrap;
+
+}
+.our_menu {
+    text-align: center;
+    display:flex;
+  justify-content: space-evenly;
+}
+.our_menu-blocks {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.our_menu-blocks__card {
+    width: 230px;
+    padding: 15px;
+    border-radius: 20px;
+    background: white;
+    text-align: left;
+}
+
+.our_menu-blocks__card--text {
+    color: #FFFADA;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0.24px;
+}
+
+
+.our_menu-blocks__card--buy--button {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 8px 18px;
+    border-radius: 10px;
+    background: orange;
+}
